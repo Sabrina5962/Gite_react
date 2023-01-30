@@ -19,7 +19,7 @@ button, select {
 }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #eac315;
   font: inherit;
   margin: 0;
 }
@@ -34,17 +34,18 @@ textarea {
 
 #container {
   border: solid 3px #474544;
-  max-width: 768px;
-  margin: 60px auto;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* max-width: 768px; */
+  /* margin: 60px auto; */
+  /* position: relative; */
 }
 
 form {
   padding: 37.5px;
   margin: 50px 0;
 }
-
-h1 {
+.h1_home {
   color: #474544;
   font-size: 32px;
   font-weight: 700;
@@ -66,7 +67,7 @@ h1 {
 
 .icon {
   display: block;
-  fill: #474544;
+  fill: #f3c81e;
   height: 50px;
   margin: 0 auto;
   width: 50px;
@@ -179,8 +180,8 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544;
-  color: #F2F3EB;
+  background: #eac315;
+  color: #3b3b38;
 }
 
 @media screen and (max-width: 768px) {

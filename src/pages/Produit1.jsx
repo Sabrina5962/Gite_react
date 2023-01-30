@@ -8,7 +8,8 @@ function Produit1() {
     <> 
     <Header/>
        
-            <h1>Produit 1</h1>     
+            <h1>Produit 1</h1>  
+            <img src={process.env.PUBLIC_URL + "Photo_hebergement1.png"} alt=""/>  
       
     <Footer/>      
     </>
