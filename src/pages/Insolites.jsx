@@ -8,9 +8,9 @@ function Insolites() {
     <> 
     <Header/>
        
-                  <div >
-                    
-                  </div>
+   <div >
+    <h1>Hébergements insolites</h1>
+   </div>
       
     <Footer/>      
     </>

@@ -29,7 +29,7 @@ function Home() {
             <section>
                 <div id="container">
                     <div className="Hébergements classiques">
-                        <a href="Page_produit1">
+                        <a href="Produit1">
                             <h4>Hébergements classiques</h4>
                         </a>
                         <img src={process.env.PUBLIC_URL + "chambre_classique4.png"} alt="chambre classique" />
@@ -42,7 +42,7 @@ function Home() {
                     </div>
 
                     <div className="Hébergements insolites">
-                        <a href="Page_produit2">
+                        <a href="Produit2">
                             <h4>Hébergements insolites</h4>
                         </a>
                         <img src={process.env.PUBLIC_URL + "insolite2.png"} alt="hébergements insolites" />
@@ -56,7 +56,7 @@ function Home() {
                     </div>
 
                     <div className="service">
-                        <a href="Page_services.html">
+                        <a href="Services">
                             <h4>Services</h4>
                         </a>
                         <img src={process.env.PUBLIC_URL + "servicesold2.png"} alt="hébergements insolites" />

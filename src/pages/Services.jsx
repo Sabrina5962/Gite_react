@@ -8,11 +8,14 @@ function Services() {
     <> 
     <Header/>
                   <div >
-                    <h1>Service</h1>
-                    <p>Le gîte du moulin vous propose de nombreux services</p>
+          <h1>Service</h1>
+          <h4>Le gîte du moulin vous propose de nombreux services</h4>
+          <p>Nourriture</p>
+          <p>Aire de camping car</p>
+          <p>Formule romantique</p>
                   </div>
       
-    {/* <Footer/>       */}
+    <Footer/>      
     </>
    
   )
